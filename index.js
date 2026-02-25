@@ -6,31 +6,31 @@ let guestScore = document.getElementById("guest-score")
 
 function incrementHomeOne(){
     homeCount += 1;
-    homeScore.textContent = homeCount;
+    homeScore.innerHTML = homeCount;
 }
 
 function incrementHomeTwo(){
     homeCount += 2;
-    homeScore.textContent = homeCount;
+    homeScore.innerHTML = homeCount;
 }
 
 function incrementHomeThree(){
     homeCount += 3;
-    homeScore.textContent = homeCount;
+    homeScore.innerHTML = homeCount;
 }
 
 function incrementGuestOne(){
     guestCount += 1;
-    guestScore.textContent = guestCount;
+    guestScore.innerHTML = guestCount;
 }
 
 function incrementGuestTwo(){
     guestCount += 2;
-    guestScore.textContent = guestCount;
+    guestScore.innerHTML = guestCount;
 }
 
 function incrementGuestThree(){
     guestCount += 3;
-    guestScore.textContent = guestCount;
+    guestScore.innerHTML = guestCount;
 
 }
