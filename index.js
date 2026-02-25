@@ -34,3 +34,10 @@ function incrementGuestThree(){
     guestScore.textContent = guestCount;
 
 }
+
+window.incrementHomeOne = incrementHomeOne;
+window.incrementHomeTwo = incrementHomeTwo;
+window.incrementHomeThree = incrementHomeThree;
+window.incrementGuestOne = incrementGuestOne;
+window.incrementGuestTwo = incrementGuestTwo;
+window.incrementGuestThree = incrementGuestThree;
